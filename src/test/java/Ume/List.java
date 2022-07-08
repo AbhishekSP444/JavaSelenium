@@ -15,7 +15,7 @@ public class List {
 	public Home Call;
 	public WebDriver driver;
 
-	@BeforeSuite
+	@BeforeSuite 
 	public void Open() {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
